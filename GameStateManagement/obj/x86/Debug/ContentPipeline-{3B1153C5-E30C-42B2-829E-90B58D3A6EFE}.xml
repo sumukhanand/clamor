@@ -1,0 +1,878 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Images\blank.png</Source>
+      <Name>Images\blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Images\blank.xnb</Output>
+      <Time>2012-04-26T17:03:45.4285689-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\gradient.png</Source>
+      <Name>Images\gradient</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Images\gradient.xnb</Output>
+      <Time>2012-04-26T17:03:45.2257686-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\hud_health_green.png</Source>
+      <Name>Images\hud_health_green</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Images\hud_health_green.xnb</Output>
+      <Time>2012-04-26T17:03:45.4129689-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\hud_health_red.png</Source>
+      <Name>Images\hud_health_red</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Images\hud_health_red.xnb</Output>
+      <Time>2012-04-26T17:03:45.2413686-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\p1_hud.png</Source>
+      <Name>Images\p1_hud</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Images\p1_hud.xnb</Output>
+      <Time>2012-04-26T17:03:45.3505688-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\p2_hud.png</Source>
+      <Name>Images\p2_hud</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Images\p2_hud.xnb</Output>
+      <Time>2012-04-26T17:03:45.3817689-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\p3_hud.png</Source>
+      <Name>Images\p3_hud</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Images\p3_hud.xnb</Output>
+      <Time>2012-04-26T17:03:45.3817689-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\p4_hud.png</Source>
+      <Name>Images\p4_hud</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Images\p4_hud.xnb</Output>
+      <Time>2012-04-26T17:03:45.3973689-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\main_background.png</Source>
+      <Name>Images\main_background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Images\main_background.xnb</Output>
+      <Time>2012-04-26T17:03:45.3973689-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\main_play.png</Source>
+      <Name>Images\main_play</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Images\main_play.xnb</Output>
+      <Time>2012-04-26T17:03:45.3037687-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\main_quit.png</Source>
+      <Name>Images\main_quit</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Images\main_quit.xnb</Output>
+      <Time>2012-04-26T17:03:45.4129689-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\main_info.png</Source>
+      <Name>Images\main_info</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Images\main_info.xnb</Output>
+      <Time>2012-04-26T17:03:45.2413686-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\main_options.png</Source>
+      <Name>Images\main_options</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Images\main_options.xnb</Output>
+      <Time>2012-04-26T17:03:45.2569686-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\transparent.png</Source>
+      <Name>Images\transparent</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Images\transparent.xnb</Output>
+      <Time>2012-04-26T17:03:45.2725687-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\players_background.png</Source>
+      <Name>Images\players_background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Images\players_background.xnb</Output>
+      <Time>2012-04-26T17:03:45.3349688-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\players_four.png</Source>
+      <Name>Images\players_four</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Images\players_four.xnb</Output>
+      <Time>2012-04-26T17:03:45.3193687-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\players_one.png</Source>
+      <Name>Images\players_one</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Images\players_one.xnb</Output>
+      <Time>2012-04-26T17:03:45.3349688-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\players_three.png</Source>
+      <Name>Images\players_three</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Images\players_three.xnb</Output>
+      <Time>2012-04-26T17:03:45.2881687-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\players_two.png</Source>
+      <Name>Images\players_two</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Images\players_two.xnb</Output>
+      <Time>2012-04-26T17:03:45.3037687-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\back.png</Source>
+      <Name>Images\back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Images\back.xnb</Output>
+      <Time>2012-04-26T17:03:45.2725687-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\explosion.png</Source>
+      <Name>Images\explosion</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Images\explosion.xnb</Output>
+      <Time>2012-04-26T17:03:45.3349688-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\info_background.png</Source>
+      <Name>Images\info_background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Images\info_background.xnb</Output>
+      <Time>2012-04-26T17:03:45.6001692-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\options_background.png</Source>
+      <Name>Images\options_background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Images\options_background.xnb</Output>
+      <Time>2012-04-26T17:03:45.5845692-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Player1_texture.png</Source>
+      <Name>Models\Player1_texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Player1_texture.xnb</Output>
+      <Time>2012-04-26T17:03:44.6797676-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Player2_texture.png</Source>
+      <Name>Models\Player2_texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Player2_texture.xnb</Output>
+      <Time>2012-04-26T17:03:44.6953676-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Player3_texture.png</Source>
+      <Name>Models\Player3_texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Player3_texture.xnb</Output>
+      <Time>2012-04-26T17:03:44.6953676-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Player4_texture.png</Source>
+      <Name>Models\Player4_texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Player4_texture.xnb</Output>
+      <Time>2012-04-26T17:03:44.7577678-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Floor_Texture.png</Source>
+      <Name>Models\Floor_Texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Floor_Texture.xnb</Output>
+      <Time>2012-04-26T17:03:44.7733678-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\mine.png</Source>
+      <Name>Images\mine</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Images\mine.xnb</Output>
+      <Time>2012-04-26T17:03:45.5689692-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\pistol.png</Source>
+      <Name>Images\pistol</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Images\pistol.xnb</Output>
+      <Time>2012-04-26T17:03:45.3193687-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\smg.png</Source>
+      <Name>Images\smg</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Images\smg.xnb</Output>
+      <Time>2012-04-26T17:03:45.4285689-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Missile_Texture.png</Source>
+      <Name>Models\Missile_Texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Missile_Texture.xnb</Output>
+      <Time>2012-04-26T17:03:44.882568-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Mine_Texture.png</Source>
+      <Name>Models\Mine_Texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Mine_Texture.xnb</Output>
+      <Time>2012-04-26T17:03:44.8201679-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Missile.fbx</Source>
+      <Name>Models\Missile</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Missile.xnb</Output>
+      <Time>2012-04-26T17:03:44.7577678-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\Missile_0.xml</Key>
+        <Value>2012-04-26T20:52:51.2611818-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Missile_Texture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Player1.fbx</Source>
+      <Name>Models\Player1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Player1.xnb</Output>
+      <Time>2012-04-26T17:03:44.8357679-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\Player1_0.xml</Key>
+        <Value>2012-04-26T20:52:51.5575824-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Player1_texture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Player2.fbx</Source>
+      <Name>Models\Player2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Player2.xnb</Output>
+      <Time>2012-04-26T17:03:44.8357679-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\Player2_0.xml</Key>
+        <Value>2012-04-26T20:52:51.7135826-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Player2_texture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Player3.fbx</Source>
+      <Name>Models\Player3</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Player3.xnb</Output>
+      <Time>2012-04-26T17:03:44.8513679-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\Player3_0.xml</Key>
+        <Value>2012-04-26T20:52:51.900783-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Player3_texture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Player4.fbx</Source>
+      <Name>Models\Player4</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Player4.xnb</Output>
+      <Time>2012-04-26T17:03:44.8513679-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\Player4_0.xml</Key>
+        <Value>2012-04-26T20:52:52.0567832-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Player4_texture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Wall_L.fbx</Source>
+      <Name>Models\Wall_L</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Wall_L.xnb</Output>
+      <Time>2012-04-26T17:03:44.8201679-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\Wall_L_0.xml</Key>
+        <Value>2012-04-26T20:52:52.3063837-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Wall_M.fbx</Source>
+      <Name>Models\Wall_M</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Wall_M.xnb</Output>
+      <Time>2012-04-26T17:03:44.8201679-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\Wall_M_0.xml</Key>
+        <Value>2012-04-26T20:52:52.3999838-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Wall_S.fbx</Source>
+      <Name>Models\Wall_S</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Wall_S.xnb</Output>
+      <Time>2012-04-26T17:03:44.8669679-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\Wall_S_0.xml</Key>
+        <Value>2012-04-26T20:52:52.462384-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Floor.fbx</Source>
+      <Name>Models\Floor</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">1.2</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Floor.xnb</Output>
+      <Time>2012-04-26T17:03:44.8669679-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\Floor_0.xml</Key>
+        <Value>2012-04-26T20:52:52.5247841-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Floor_Texture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\MachineGun.fbx</Source>
+      <Name>Models\MachineGun</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\MachineGun.xnb</Output>
+      <Time>2012-04-26T17:03:44.8357679-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\MachineGun_0.xml</Key>
+        <Value>2012-04-26T20:52:53.0239849-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Player1_texture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\MachineGun_PowerUp.fbx</Source>
+      <Name>Models\MachineGun_PowerUp</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">2</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\MachineGun_PowerUp.xnb</Output>
+      <Time>2012-04-26T17:03:44.898168-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\MachineGun_PowerUp_0.xml</Key>
+        <Value>2012-04-26T20:52:53.1175851-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Missile_Texture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Mine.fbx</Source>
+      <Name>Models\Mine</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">3</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Mine.xnb</Output>
+      <Time>2012-04-26T17:03:44.882568-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\Mine_0.xml</Key>
+        <Value>2012-04-26T20:52:53.1799852-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Mine_Texture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Mine_PowerUp.fbx</Source>
+      <Name>Models\Mine_PowerUp</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">2</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Mine_PowerUp.xnb</Output>
+      <Time>2012-04-26T17:03:44.7889678-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\Mine_PowerUp_0.xml</Key>
+        <Value>2012-04-26T20:52:53.2891854-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Mine_Texture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Shotgun.fbx</Source>
+      <Name>Models\Shotgun</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Shotgun.xnb</Output>
+      <Time>2012-04-26T17:03:44.882568-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\Shotgun_0.xml</Key>
+        <Value>2012-04-26T20:52:53.3515855-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Shotgun_PowerUp.fbx</Source>
+      <Name>Models\Shotgun_PowerUp</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Shotgun_PowerUp.xnb</Output>
+      <Time>2012-04-26T17:03:44.7733678-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\Shotgun_PowerUp_0.xml</Key>
+        <Value>2012-04-26T20:52:53.4451857-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Mine_Player.fbx</Source>
+      <Name>Models\Mine_Player</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Mine_Player.xnb</Output>
+      <Time>2012-04-26T17:03:44.7421677-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\Mine_Player_0.xml</Key>
+        <Value>2012-04-26T20:52:53.5075858-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\MachineGun_Player.fbx</Source>
+      <Name>Models\MachineGun_Player</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\MachineGun_Player.xnb</Output>
+      <Time>2012-04-26T17:03:44.898168-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\MachineGun_Player_0.xml</Key>
+        <Value>2012-04-26T20:52:53.5699859-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Player1_texture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Spritefonts\gamefont.spritefont</Source>
+      <Name>Spritefonts\gamefont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Spritefonts\gamefont.xnb</Output>
+      <Time>2012-04-26T17:03:44.4301672-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Spritefonts\menufont.spritefont</Source>
+      <Name>Spritefonts\menufont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Spritefonts\menufont.xnb</Output>
+      <Time>2012-04-26T17:03:44.4145672-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Spritefonts\fpsfont.spritefont</Source>
+      <Name>Spritefonts\fpsfont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Spritefonts\fpsfont.xnb</Output>
+      <Time>2012-04-26T17:03:44.4145672-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Spritefonts\mainfont.spritefont</Source>
+      <Name>Spritefonts\mainfont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Spritefonts\mainfont.xnb</Output>
+      <Time>2012-04-26T17:03:44.3989671-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Music\menu.mp3</Source>
+      <Name>Music\menu</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Music\menu.xnb</Output>
+      <Extra>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Music\menu.wma</Extra>
+      <Time>2012-04-26T17:03:44.305367-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Music\gameplay.mp3</Source>
+      <Name>Music\gameplay</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Music\gameplay.xnb</Output>
+      <Extra>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Music\gameplay.wma</Extra>
+      <Time>2012-04-26T17:03:44.305367-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Missile.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\Missile_0.xml</Output>
+      <Time>2012-04-26T17:03:44.7577678-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Missile_Texture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Missile_Texture_0.xnb</Output>
+      <Time>2012-04-26T17:03:44.882568-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Player1.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\Player1_0.xml</Output>
+      <Time>2012-04-26T17:03:44.8357679-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Player1_texture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Player1_texture_0.xnb</Output>
+      <Time>2012-04-26T17:03:44.6797676-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Player2.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\Player2_0.xml</Output>
+      <Time>2012-04-26T17:03:44.8357679-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Player2_texture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Player2_texture_0.xnb</Output>
+      <Time>2012-04-26T17:03:44.6953676-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Player3.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\Player3_0.xml</Output>
+      <Time>2012-04-26T17:03:44.8513679-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Player3_texture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Player3_texture_0.xnb</Output>
+      <Time>2012-04-26T17:03:44.6953676-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Player4.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\Player4_0.xml</Output>
+      <Time>2012-04-26T17:03:44.8513679-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Player4_texture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Player4_texture_0.xnb</Output>
+      <Time>2012-04-26T17:03:44.7577678-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Wall_L.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\Wall_L_0.xml</Output>
+      <Time>2012-04-26T17:03:44.8201679-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Wall_M.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\Wall_M_0.xml</Output>
+      <Time>2012-04-26T17:03:44.8201679-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Wall_S.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\Wall_S_0.xml</Output>
+      <Time>2012-04-26T17:03:44.8669679-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Floor.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\Floor_0.xml</Output>
+      <Time>2012-04-26T17:03:44.8669679-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Floor_Texture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Floor_Texture_0.xnb</Output>
+      <Time>2012-04-26T17:03:44.7733678-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\MachineGun.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\MachineGun_0.xml</Output>
+      <Time>2012-04-26T17:03:44.8357679-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\MachineGun_PowerUp.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\MachineGun_PowerUp_0.xml</Output>
+      <Time>2012-04-26T17:03:44.898168-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Mine.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\Mine_0.xml</Output>
+      <Time>2012-04-26T17:03:44.882568-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Mine_Texture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\Models\Mine_Texture_0.xnb</Output>
+      <Time>2012-04-26T17:03:44.8201679-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Mine_PowerUp.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\Mine_PowerUp_0.xml</Output>
+      <Time>2012-04-26T17:03:44.7889678-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Shotgun.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\Shotgun_0.xml</Output>
+      <Time>2012-04-26T17:03:44.882568-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Shotgun_PowerUp.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\Shotgun_PowerUp_0.xml</Output>
+      <Time>2012-04-26T17:03:44.7733678-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Mine_Player.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\Mine_Player_0.xml</Output>
+      <Time>2012-04-26T17:03:44.7421677-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\MachineGun_Player.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\Models\MachineGun_Player_0.xml</Output>
+      <Time>2012-04-26T17:03:44.898168-07:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{3B1153C5-E30C-42B2-829E-90B58D3A6EFE}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-11-08T16:50:19.1686209-08:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

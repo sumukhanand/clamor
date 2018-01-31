@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:MeshContent">
+    <Name>MachineGun</Name>
+    <Identity>
+      <SourceFilename>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\Content\Models\MachineGun.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+    <Positions>-45.99269 0 13.2040873 -59.1967773 0 13.2040873 -45.99269 13.2040873 13.2040873 -59.1967773 13.2040873 13.2040873 -45.99269 13.2040873 66.02043 -59.1967773 13.2040873 66.02043 -59.1967773 0 66.02043 -45.99269 0 66.02043 59.4183922 0 13.2040873 46.2143059 0 13.2040873 59.4183922 13.2040873 13.2040873 46.2143059 13.2040873 13.2040873 59.4183922 13.2040873 66.02043 46.2143059 13.2040873 66.02043 46.2143059 0 66.02043 59.4183922 0 66.02043</Positions>
+    <Geometry>
+      <Batch>
+        <Material>#Resource1</Material>
+        <Indices>2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22 26 25 24 24 27 26 30 29 28 28 31 30 34 33 32 32 35 34 38 37 36 36 39 38</Indices>
+        <Vertices>
+          <PositionIndices>4 5 6 7 2 3 5 4 3 1 6 5 1 0 7 6 0 2 4 7 12 13 14 15 10 11 13 12 11 9 14 13 9 8 15 14 8 10 12 15</PositionIndices>
+          <Channels>
+            <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0</VertexChannel>
+            <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.283182085 0.312520325 0.220708489 0.312520325 0.220708489 0.374933779 0.283182085 0.374933779 0.220708489 0.562469542 0.283182085 0.562469542 0.283182085 0.312520325 0.220708489 0.312520325 0.220708489 0.562469542 0.283182085 0.562469542 0.283182085 0.312520325 0.220708489 0.312520325 0.220708489 0.5624695 0.283182085 0.5624695 0.283182085 0.312520385 0.220708489 0.312520385 0.220708489 0.5624695 0.283182085 0.5624695 0.283182085 0.312520385 0.220708489 0.312520385 0.283182085 0.312520325 0.220708489 0.312520325 0.220708489 0.374933779 0.283182085 0.374933779 0.220708489 0.562469542 0.283182085 0.562469542 0.283182085 0.312520325 0.220708489 0.312520325 0.220708489 0.562469542 0.283182085 0.562469542 0.283182085 0.312520325 0.220708489 0.312520325 0.220708489 0.5624695 0.283182085 0.5624695 0.283182085 0.312520385 0.220708489 0.312520385 0.220708489 0.562469542 0.283182085 0.562469542 0.283182085 0.312520385 0.220708489 0.312520385</VertexChannel>
+          </Channels>
+        </Vertices>
+      </Batch>
+    </Geometry>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
+      <Name>MachineGunTexture</Name>
+      <Identity>
+        <SourceFilename>C:\Users\Sumukh\Documents\Code Base\hayv\GameStateManagement\Content\Models\MachineGun.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+  </Resources>
+  <ExternalReferences>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\..\..\Content\Models\Player1_texture.png</ExternalReference>
+  </ExternalReferences>
+</XnaContent>
